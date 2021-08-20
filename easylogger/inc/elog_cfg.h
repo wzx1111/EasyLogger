@@ -65,9 +65,9 @@
 /* buffer size for asynchronous output mode */
 #define ELOG_ASYNC_OUTPUT_BUF_SIZE               (ELOG_LINE_BUF_SIZE * 10)
 /* each asynchronous output's log which must end with newline sign */
-#define ELOG_ASYNC_LINE_OUTPUT
+//#define ELOG_ASYNC_LINE_OUTPUT
 /* asynchronous output mode using POSIX pthread implementation */
-#define ELOG_ASYNC_OUTPUT_USING_PTHREAD
+//#define ELOG_ASYNC_OUTPUT_USING_PTHREAD
 /*---------------------------------------------------------------------------*/
 /* enable buffered output mode */
 #define ELOG_BUF_OUTPUT_ENABLE
